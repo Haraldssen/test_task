@@ -1,0 +1,16 @@
+html {
+	font-size: 50pt;
+	color: #FFFFFF;
+	margin: 0em 0em;
+	font-family: "Gabriola", Arial, Helvetica, sans-serif;
+}
+
+body, #wrap {
+    background-image:url(gendalf.jpg);
+    background-size: 100%;
+    background-color: #000000;
+	height: 100%;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+

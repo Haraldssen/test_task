@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 10pt;
+}
+
+* {
+	margin: 0px;
+  	padding: 0px;
+}
+
+
+@keyframes blink {
+  0%   { opacity: 0; }
+  30%  { opacity: 1; }
+  50%  { opacity: 0; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+#text{
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+body, #wrap {
+    background-image:url(moria.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+	background-color: #483D8B;
+	background-size: 100%
+
+}
+
+#content_box {
+	margin: 7em auto;
+	width: 70em;
+	background-attachment:fixed;
+    background-position:center;
+	background-color: rgba(0, 0, 0, 0);
+
+	min-height: 1em;
+}
+
+#content_box h1 {
+	display: block;
+	width: 100%;
+	color: #11111;
+	padding: 0.5em 4.5em;
+    font-size: 4em;
+}
+
+#content_box form  {
+	margin: 1em;
+}
+
+#content_box .text {
+	text-align: right;
+}
+
+
+form {
+	font-size: 1em;
+}
+
+.form-row {
+	clear: both;
+	padding: 0.5em 0 0.75em;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 75%;
+}
+
+.form-label {
+	float: left;
+	width: 20em;
+	text-align: right;
+	padding: 0.25em 0 2em 0;
+}
+
+.form-label label {
+	margin-right: 1em;
+	font-weight: normal;
+	font-size: 2.5em;
+	color: #FFFFFF;
+}
+
+.form-field {
+	width: 15em;
+	float: left;
+}
+
+.form-row ul.error_list {
+	font-weight: bold;
+	list-style-type: none;
+    margin: 0 1.5em 0 12em;
+	clear: both;
+}
+
+.form-row ul.error_list li {
+	color: red;
+}
+
+
+.form-row input, textarea, select {
+	font-size: 1.25em;
+}
+
+.form-buttons {
+	margin: 1em 2em;
+	text-align: center;
+}
+
+.form-buttons input.submit {
+	font-size: 2em;
+	padding: 0.5em 1em;
+}
+
+input[type=checkbox], input[type=radio],
+input.checkbox, input.radio {
+  position:relative; top:.25em;
+}
+
+.error_contener ul.error_list {
+	list-style-type: none;
+	display: block;
+	margin: 0.5em 2em;
+	padding: 0.5em 2em;
+	border: 1px #5A0C2B solid;
+	background-color: #B6547C;
+	color: #F1F5CF;
